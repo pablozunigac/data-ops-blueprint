@@ -6,7 +6,7 @@ A production-grade, polyglot environment template designed for high-performance 
 
 ## Core Architecture Stack
 
-*   **Automation Layer (`Makefile`)**
+*   **Automation Layer (`Makefile`)**  
       System-level environment orchestration, keeping setup, virtualization, and execution fully reproducible through single-line terminal commands.
 *   **Data Engineering & Analytics Runtime (`pyproject.toml`)**  
       Modern, strict Python environment configured under the PEP 621/518 standard. Feature-gated via optional dependencies (`dataops`, `analytics`, `dataviz`) for modular, lightweight deployment pipelines.
