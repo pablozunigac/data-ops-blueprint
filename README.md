@@ -16,7 +16,7 @@ Vectorized, functional R environment provisioned deterministically with optimize
 
 ## Quick Start
 
-This project is built to eliminate environment contamination and "it works on my machine" bottlenecks. To automatically initialize and isolate both the Python virtual environments and the R dependencies, execute the following command in your terminal:
+This project is built to eliminate environment contamination and _it works on my machine_ bottlenecks. To automatically initialize and isolate both the Python virtual environments and the R dependencies, execute the following command in your terminal:
 
 ```bash
 make init
