@@ -115,13 +115,11 @@ missing_packages <- packages[!vapply(packages,
 # Install Missing Packages
 # -------------------------------------------------------------------------------
 if (length(missing_packages) > 0) {
-  message(sprintf(
-    "Installing %d missing package(s)...",
-    length(missing_packages)
+  message(sprintf("Installing %d missing package(s)...",
+                  length(missing_packages)
   ))
-  install.packages(
-    missing_packages,
-    dependencies = TRUE
+  install.packages(missing_packages,
+                   dependencies = TRUE
   )
 } else {
   message("All required R packages are already installed.")
